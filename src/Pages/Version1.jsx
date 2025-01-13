@@ -41,7 +41,7 @@ function MotorModel() {
                 <Suspense
                 fallback={
                     <Text position={[0, 0, 0]} fontSize={1} color="black">
-                    Loading...1234
+                    Loading...
                     </Text>
                 }
                 >
