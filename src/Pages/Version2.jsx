@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { useGLTF, Text, OrbitControls, useTexture } from "@react-three/drei";
 import { Suspense } from "react";
-
+import React, { useEffect } from "react";
 function MotorModel() {
   const { scene } = useGLTF("/porsche_997_gt3rsr.glb");
 
@@ -13,6 +13,12 @@ function MotorModel() {
 }
 
 const Version2 = () => {
+    useEffect(() => {
+          document.body.style.overflow = 'hidden'; 
+          return () => {
+              document.body.style.overflow = '';
+          };
+      }, []);
   return (
     <div>
       <Canvas

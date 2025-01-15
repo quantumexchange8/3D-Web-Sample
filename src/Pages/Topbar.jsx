@@ -49,6 +49,62 @@ const Topbar = () => {
                     Version 3
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/version4"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 4
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version5"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 5
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version6"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 6
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version7"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 7
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version8"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 8
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version9"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 9
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/version10"
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    Version 10
+                  </Link>
+                </li>
               </ul>
             </div>
           )}

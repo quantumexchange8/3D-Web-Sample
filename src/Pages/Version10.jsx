@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useGLTF, Text, OrbitControls, useTexture } from '@react-three/drei';
 import { Suspense } from 'react';
@@ -21,13 +21,8 @@ function MotorModel() {
     );
   }
 
-  const Version1 = () => {
- useEffect(() => {
-        document.body.style.overflow = 'hidden'; 
-        return () => {
-            document.body.style.overflow = '';
-        };
-    }, []);
+  const Version10 = () => {
+
     return (
         <div className="relative w-full h-screen bg-gray-900">
           <Canvas
@@ -63,4 +58,4 @@ function Background() {
   return <primitive object={texture} attach="background" />;
 }
 
-export default Version1;
+export default Version10;
