@@ -10,8 +10,7 @@ import Version5 from './Pages/Version5';
 import Version6 from './Pages/Version6';
 import Version7 from './Pages/Version7';
 import Version8 from './Pages/Version8';
-import Version9 from './Pages/Version9';
-import Version10 from './Pages/Version10';
+
 
 
 
@@ -30,8 +29,7 @@ function App() {
             <Route path='/version6' element={<Version6   />} />
             <Route path='/version7' element={<Version7 />} />
             <Route path='/version8' element={<Version8 />} />
-            <Route path='/version9' element={<Version9 />} />
-            <Route path='/version10' element={<Version10 />} />
+
           </Routes>
       </div>
     </Router>

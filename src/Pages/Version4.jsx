@@ -21,9 +21,9 @@ function Background() {
 
   return (
     <Image
-      scale={[10, 6, 1]}  // Adjust scale for background size
-      position={[0, 0, -5]}  // Position the image behind the model
-      url="/porsche.jpg"  // The URL of your texture image
+      scale={[10, 6, 1]}  
+      position={[0, 0, -5]} 
+      url="/porsche.jpg"  
     />
   );
 }
