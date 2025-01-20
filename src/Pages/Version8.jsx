@@ -99,15 +99,15 @@ const Version5 = () => {
     return () => {
       document.body.style.overflow = "";
     };
-  }, []);
+  }, []); 
 
   return (
-    <div className="relative w-full h-screen bg-gradient-to-b from-blue-900 via-black to-gray-800">
+    <div className="relative w-full h-screen bg-gradient-to-b from-blue-900 via-black  to-gray-800">
       <Canvas
         style={{ width: "100%", height: "100vh" }}
         camera={{ position: [0, 2, 15], fov: 50 }}
       >
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={0.5} />  
         <spotLight position={[10, 10, 10]} intensity={1.5} angle={0.2} />
         <Suspense
           fallback={
@@ -129,3 +129,4 @@ const Version5 = () => {
 };
 
 export default Version5;
+  

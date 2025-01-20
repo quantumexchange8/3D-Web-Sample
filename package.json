@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
     "@mediapipe/tasks-vision": "^0.10.20",
     "@react-three/cannon": "^6.6.0",
-    "@react-three/drei": "^9.120.6",
+    "@react-three/drei": "^9.121.2",
     "@react-three/fiber": "^8.17.10",
     "cra-template": "1.2.0",
     "framer-motion": "^11.16.1",
@@ -14,6 +15,7 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
     "three": "^0.172.0",
+    "three-stdlib": "^2.35.12",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
